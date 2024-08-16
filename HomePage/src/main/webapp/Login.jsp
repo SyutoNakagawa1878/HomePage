@@ -27,7 +27,10 @@ String result = (String)request.getAttribute("result");
 	        <br><br>
 	        <input type="submit" value="思い出を見る">
 	        <br><br>
-	        <strong><%= result = result!=null ? result : "" %></strong>
+	        <font color="red">
+	        	<strong><%= result = result!=null ? result : "" %></strong>
+	        </font>
+	        
 	    </div>
 	</body>
 </form>

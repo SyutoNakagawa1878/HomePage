@@ -27,6 +27,9 @@ public class login extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+		RequestDispatcher dispatcher =  request.getRequestDispatcher("./Login.jsp");
+        //フォワードの実行
+        dispatcher.forward(request, response);
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
@@ -51,6 +54,7 @@ public class login extends HttpServlet {
         if(isLogin) {
             //request.setAttribute("result",user);  // 4
         	System.out.println("照合成功");
+        	targetJspPath = "./Main.jsp";
         }
         else {
         	request.setAttribute("result","合言葉が違います");
