@@ -14,10 +14,10 @@
 	    <!-- サイドバー -->
 	    <div id="sidebar">
 	        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	        <a href="#">うんち</a>
-	        <a href="#">カナシミ</a>
-	        <a href="#">イイナー</a>
-	        <a href="#">ヨロコビ</a>
+	        <a href="#">メニュー１</a>
+	        <a href="#">メニュー２</a>
+	        <a href="#">メニュー３</a>
+	        <a href="#">メニュー４</a>
 	    </div>
 	
 	    <!-- メインコンテンツ -->

@@ -54,7 +54,7 @@ public class login extends HttpServlet {
         if(isLogin) {
             //request.setAttribute("result",user);  // 4
         	System.out.println("照合成功");
-        	targetJspPath = "./Main.jsp";
+        	targetJspPath = "./Test.jsp";
         }
         else {
         	request.setAttribute("result","合言葉が違います");
